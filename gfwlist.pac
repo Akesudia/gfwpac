@@ -1976,6 +1976,7 @@ var rules = [
             "google.co.zm",
             "google.co.zw",
             "google.com",
+            "cursecdn.com",
             "gamepedia.com",
             "sourceforge.net",
             "sourceforge.io",
