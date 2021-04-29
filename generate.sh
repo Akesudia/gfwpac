@@ -18,7 +18,6 @@ sed -i '/"google.com",/a\            "cursecdn.com",' gfwlist.pac
 
 
 
-
 git add .
 git commit -m "[$(LANG=C date)] update"
 git push origin master
