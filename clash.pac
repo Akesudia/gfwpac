@@ -3,7 +3,7 @@
  * GFWList Last-Modified: 2021-06-23 22:54:10
  */
 
-var proxy = 'SOCKS5 127.0.0.1:1088';
+var proxy = 'SOCKS5 127.0.0.1:7890';
 var rules = [
     [
         [],
@@ -5889,7 +5889,7 @@ function FindProxyForURL(url, host) {
         if (ret != undefined)
             return ret;
     }
-    return lproxy;
+    return 'DIRECT';
 }
 
 function testHost(host, index) {
@@ -5897,7 +5897,7 @@ function testHost(host, index) {
         for (var j = 0; j < rules[index][i].length; j++) {
             lastRule = rules[index][i][j];
             if (host == lastRule || host.endsWith('.' + lastRule))
-                return i % 2 == 0 ? lproxy : proxy;
+                return i % 2 == 0 ? 'DIRECT' : proxy;
         }
     }
     lastRule = '';
