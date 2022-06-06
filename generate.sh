@@ -14,6 +14,7 @@ sed -i '/"google.com",/a\            "sourceforge.io",' gfwlist.pac
 sed -i '/"google.com",/a\            "sourceforge.net",' gfwlist.pac
 sed -i '/"google.com",/a\            "gamepedia.com",' gfwlist.pac
 sed -i '/"google.com",/a\            "cursecdn.com",' gfwlist.pac
+sed -i '/"google.com",/a\            "ping.pe",' gfwlist.pac
 
 #just what i need
 cp gfwlist.pac ss.pac
