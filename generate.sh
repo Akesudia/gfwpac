@@ -17,6 +17,7 @@ sed -i '/"google.com",/a\            "cursecdn.com",' gfwlist.pac
 sed -i '/"google.com",/a\            "ping.pe",' gfwlist.pac
 sed -i '/"google.com",/a\            "kisssub.org",' gfwlist.pac
 sed -i '/"google.com",/a\            "wallhaven.cc",' gfwlist.pac
+sed -i '/"google.com",/a\            "wiki.gg",' gfwlist.pac
 sed -i '/iqiyi.com/d' gfwlist.pac
 
 #just what i need
