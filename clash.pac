@@ -2108,6 +2108,7 @@ var rules = [
             "google.co.zm",
             "google.co.zw",
             "google.com",
+            "yts.mx",
             "wiki.gg",
             "wallhaven.cc",
             "kisssub.org",
