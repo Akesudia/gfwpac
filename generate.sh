@@ -26,10 +26,10 @@ cp gfwlist.pac ss.pac
 cp gfwlist.pac clash.pac
 rm gfwlist.pac
 sed -i 's|127.0.0.1:1080|127.0.0.1:1088|g' ss.pac
-cp ss.pac ncb.pac
 sed -i 's|127.0.0.1:1080|127.0.0.1:7890|g' clash.pac
-sed -i '/var proxy = '\''SOCKS5 127.0.0.1:1080'\'';/a\var lproxy = '\''SOCKS5 127.0.0.1:1089'\'';' ncb.pac
-sed -i 's|'\''DIRECT'\''|lproxy|g' ncb.pac
+#cp ss.pac ncb.pac
+#sed -i '/var proxy = '\''SOCKS5 127.0.0.1:1080'\'';/a\var lproxy = '\''SOCKS5 127.0.0.1:1089'\'';' ncb.pac
+#sed -i 's|'\''DIRECT'\''|lproxy|g' ncb.pac
 
 
 git add .
